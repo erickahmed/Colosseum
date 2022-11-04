@@ -11,8 +11,8 @@ public class BlocksEditorTarget : TargetRules
         // bOverrideBuildEnvironment = true;
         // AdditionalCompilerArguments = "-Wno-unused-but-set-variable";
 
-		Type = TargetType.Editor;
-		ExtraModuleNames.AddRange(new string[] { "Blocks" });
+	Type = TargetType.Editor;
+	ExtraModuleNames.AddRange(new string[] { "Blocks" });
         DefaultBuildSettings = BuildSettingsVersion.V2;
         //bUseUnityBuild = false;
         //bUsePCHFiles = false;
