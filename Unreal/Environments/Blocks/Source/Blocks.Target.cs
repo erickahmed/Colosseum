@@ -7,9 +7,9 @@ public class BlocksTarget : TargetRules
 {
 	public BlocksTarget(TargetInfo Target) : base(Target)
 	{
-        // If having trouble building with XCode version>13.3, uncomment following two lines:
-        // bOverrideBuildEnvironment = true;
-        // AdditionalCompilerArguments = "-Wno-unused-but-set-variable";
+        	// If having trouble building with XCode version>13.3, uncomment following two lines:
+        	// bOverrideBuildEnvironment = true;
+        	// AdditionalCompilerArguments = "-Wno-unused-but-set-variable";
 
 		Type = TargetType.Game;
 		ExtraModuleNames.AddRange(new string[] { "Blocks" });
